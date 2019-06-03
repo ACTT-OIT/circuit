@@ -1,0 +1,493 @@
+EESchema Schematic File Version 2
+LIBS:power
+LIBS:device
+LIBS:switches
+LIBS:relays
+LIBS:motors
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+LIBS:MotorDriver-cache
+EELAYER 25 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Fuse F1
+U 1 1 5B9E9B37
+P 2550 3450
+F 0 "F1" V 2600 3600 50  0000 C CNN
+F 1 "Fuse" V 2550 3450 50  0000 C CNN
+F 2 "zisaku:Fuse-p-sup" V 2480 3450 50  0001 C CNN
+F 3 "" H 2550 3450 50  0001 C CNN
+	1    2550 3450
+	0    1    1    0   
+$EndComp
+$Comp
+L Fuse F2
+U 1 1 5B9E9BEB
+P 2550 3550
+F 0 "F2" V 2600 3700 50  0000 C CNN
+F 1 "Fuse" V 2550 3550 50  0000 C CNN
+F 2 "zisaku:Fuse-p-sup" V 2480 3550 50  0001 C CNN
+F 3 "" H 2550 3550 50  0001 C CNN
+	1    2550 3550
+	0    1    1    0   
+$EndComp
+$Comp
+L Fuse F3
+U 1 1 5B9E9C81
+P 2550 3650
+F 0 "F3" V 2600 3800 50  0000 C CNN
+F 1 "Fuse" V 2550 3650 50  0000 C CNN
+F 2 "zisaku:Fuse-p-sup" V 2480 3650 50  0001 C CNN
+F 3 "" H 2550 3650 50  0001 C CNN
+	1    2550 3650
+	0    1    1    0   
+$EndComp
+$Comp
+L Conn_01x02 J1
+U 1 1 5B9F708F
+P 2000 3450
+F 0 "J1" H 2000 3550 50  0000 C CNN
+F 1 "Battery" H 2000 3250 50  0000 C CNN
+F 2 "zisaku:Ultra_conn" H 2000 3450 50  0001 C CNN
+F 3 "" H 2000 3450 50  0001 C CNN
+	1    2000 3450
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Conn_01x02 J2
+U 1 1 5B9F7262
+P 3200 3450
+F 0 "J2" H 3200 3550 50  0000 C CNN
+F 1 "To MD" H 3200 3250 50  0000 C CNN
+F 2 "zisaku:Ultra_conn" H 3200 3450 50  0001 C CNN
+F 3 "" H 3200 3450 50  0001 C CNN
+	1    3200 3450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Conn_01x03 J4
+U 1 1 5B9F7E6C
+P 3700 4250
+F 0 "J4" H 3700 4450 50  0000 C CNN
+F 1 "Servo r-pi" H 3850 4050 50  0000 C CNN
+F 2 "Connectors_JST:JST_VH_B3P-VH-B_3x3.96mm_Vertical" H 3700 4250 50  0001 C CNN
+F 3 "" H 3700 4250 50  0001 C CNN
+	1    3700 4250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Fuse F5
+U 1 1 5B9FA7D2
+P 2550 4250
+F 0 "F5" V 2600 4400 50  0000 C CNN
+F 1 "Fuse" V 2550 4250 50  0000 C CNN
+F 2 "zisaku:Fuse-p-sup" V 2480 4250 50  0001 C CNN
+F 3 "" H 2550 4250 50  0001 C CNN
+	1    2550 4250
+	0    1    1    0   
+$EndComp
+$Comp
+L Fuse F4
+U 1 1 5B9FA873
+P 2550 4150
+F 0 "F4" V 2600 4300 50  0000 C CNN
+F 1 "Fuse" V 2550 4150 50  0000 C CNN
+F 2 "zisaku:Fuse-p-sup" V 2480 4150 50  0001 C CNN
+F 3 "" H 2550 4150 50  0001 C CNN
+	1    2550 4150
+	0    1    1    0   
+$EndComp
+$Comp
+L GND #PWR4
+U 1 1 5B9FC0C9
+P 3000 3550
+F 0 "#PWR4" H 3000 3300 50  0001 C CNN
+F 1 "GND" H 3000 3400 50  0000 C CNN
+F 2 "" H 3000 3550 50  0001 C CNN
+F 3 "" H 3000 3550 50  0001 C CNN
+	1    3000 3550
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR7
+U 1 1 5B9FC216
+P 3500 4350
+F 0 "#PWR7" H 3500 4100 50  0001 C CNN
+F 1 "GND" H 3500 4200 50  0000 C CNN
+F 2 "" H 3500 4350 50  0001 C CNN
+F 3 "" H 3500 4350 50  0001 C CNN
+	1    3500 4350
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR5
+U 1 1 5B9FEC45
+P 3000 3950
+F 0 "#PWR5" H 3000 3700 50  0001 C CNN
+F 1 "GND" H 3100 3850 50  0000 C CNN
+F 2 "" H 3000 3950 50  0001 C CNN
+F 3 "" H 3000 3950 50  0001 C CNN
+	1    3000 3950
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR2
+U 1 1 5B9FEFD9
+P 2400 4550
+F 0 "#PWR2" H 2400 4300 50  0001 C CNN
+F 1 "GND" H 2400 4400 50  0000 C CNN
+F 2 "" H 2400 4550 50  0001 C CNN
+F 3 "" H 2400 4550 50  0001 C CNN
+	1    2400 4550
+	1    0    0    -1  
+$EndComp
+$Comp
+L LED D2
+U 1 1 5BA012F1
+P 3150 4750
+F 0 "D2" H 3150 4850 50  0000 C CNN
+F 1 "LED" H 3150 4650 50  0000 C CNN
+F 2 "LEDs:LED-3MM" H 3150 4750 50  0001 C CNN
+F 3 "" H 3150 4750 50  0001 C CNN
+	1    3150 4750
+	0    -1   -1   0   
+$EndComp
+$Comp
+L R R2
+U 1 1 5BA012F7
+P 3150 4450
+F 0 "R2" V 3100 4600 50  0000 C CNN
+F 1 "1k" V 3150 4450 50  0000 C CNN
+F 2 "Resistors_SMD:R_0603_HandSoldering" V 3080 4450 50  0001 C CNN
+F 3 "" H 3150 4450 50  0001 C CNN
+	1    3150 4450
+	-1   0    0    1   
+$EndComp
+$Comp
+L GND #PWR6
+U 1 1 5BA012FD
+P 3150 4900
+F 0 "#PWR6" H 3150 4650 50  0001 C CNN
+F 1 "GND" H 3150 4750 50  0000 C CNN
+F 2 "" H 3150 4900 50  0001 C CNN
+F 3 "" H 3150 4900 50  0001 C CNN
+	1    3150 4900
+	1    0    0    -1  
+$EndComp
+$Comp
+L LED D1
+U 1 1 5BA02B5E
+P 2850 4750
+F 0 "D1" H 2850 4850 50  0000 C CNN
+F 1 "LED" H 2850 4650 50  0000 C CNN
+F 2 "LEDs:LED-3MM" H 2850 4750 50  0001 C CNN
+F 3 "" H 2850 4750 50  0001 C CNN
+	1    2850 4750
+	0    -1   -1   0   
+$EndComp
+$Comp
+L R R1
+U 1 1 5BA02B64
+P 2850 4450
+F 0 "R1" V 2800 4600 50  0000 C CNN
+F 1 "1k" V 2850 4450 50  0000 C CNN
+F 2 "Resistors_SMD:R_0603_HandSoldering" V 2780 4450 50  0001 C CNN
+F 3 "" H 2850 4450 50  0001 C CNN
+	1    2850 4450
+	-1   0    0    1   
+$EndComp
+$Comp
+L GND #PWR3
+U 1 1 5BA02B6A
+P 2850 4900
+F 0 "#PWR3" H 2850 4650 50  0001 C CNN
+F 1 "GND" H 2850 4750 50  0000 C CNN
+F 2 "" H 2850 4900 50  0001 C CNN
+F 3 "" H 2850 4900 50  0001 C CNN
+	1    2850 4900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Conn_01x04 J1
+U 1 1 5BA06D4D
+P 5150 3900
+F 0 "J1" H 5150 4100 50  0000 C CNN
+F 1 "ST-Link" H 5200 3600 50  0000 C CNN
+F 2 "Connectors_JST:JST_EH_S04B-EH_04x2.50mm_Angled" H 5150 3900 50  0001 C CNN
+F 3 "" H 5150 3900 50  0001 C CNN
+	1    5150 3900
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Conn_01x04 J2
+U 1 1 5BA06E9A
+P 7300 3700
+F 0 "J2" H 7300 3900 50  0000 C CNN
+F 1 "R-pi" H 7300 3400 50  0000 C CNN
+F 2 "Connectors_JST:JST_EH_S04B-EH_04x2.50mm_Angled" H 7300 3700 50  0001 C CNN
+F 3 "" H 7300 3700 50  0001 C CNN
+	1    7300 3700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Conn_01x04 J3
+U 1 1 5BA06F95
+P 7300 4600
+F 0 "J3" H 7300 4800 50  0000 C CNN
+F 1 "PC" H 7300 4300 50  0000 C CNN
+F 2 "Connectors_JST:JST_EH_S04B-EH_04x2.50mm_Angled" H 7300 4600 50  0001 C CNN
+F 3 "" H 7300 4600 50  0001 C CNN
+	1    7300 4600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2700 3450 2700 3650
+Wire Wire Line
+	2700 4250 3500 4250
+Wire Wire Line
+	2700 3450 3000 3450
+Connection ~ 2400 3450
+Connection ~ 2400 3550
+Wire Wire Line
+	2700 4150 3500 4150
+Connection ~ 2850 3450
+Connection ~ 2400 3650
+Connection ~ 2400 4150
+Wire Wire Line
+	2850 4250 2850 4300
+Connection ~ 2850 4250
+Wire Wire Line
+	3150 4300 3150 4150
+Connection ~ 3150 4150
+Wire Wire Line
+	2400 3450 2400 4350
+Text GLabel 6450 3600 2    47   BiDi ~ 0
+D-a
+Text GLabel 6450 3800 2    47   BiDi ~ 0
+D-d
+Text GLabel 6450 4300 2    47   BiDi ~ 0
+D+a
+Text GLabel 6450 4500 2    47   BiDi ~ 0
+D+d
+Text GLabel 7100 3700 0    47   BiDi ~ 0
+D-a
+Text GLabel 7100 3800 0    47   BiDi ~ 0
+D+a
+Text GLabel 7100 4600 0    47   BiDi ~ 0
+D-d
+Text GLabel 7100 4700 0    47   BiDi ~ 0
+D+d
+$Comp
+L CP1_Small C1
+U 1 1 5BA0E3F1
+P 2400 4450
+F 0 "C1" H 2410 4520 50  0000 L CNN
+F 1 "470uF" H 2410 4370 50  0000 L CNN
+F 2 "Capacitors_THT:CP_Radial_D10.0mm_P5.00mm" H 2400 4450 50  0001 C CNN
+F 3 "" H 2400 4450 50  0001 C CNN
+	1    2400 4450
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR1
+U 1 1 5BA0F6F7
+P 2200 3550
+F 0 "#PWR1" H 2200 3300 50  0001 C CNN
+F 1 "GND" H 2200 3400 50  0000 C CNN
+F 2 "" H 2200 3550 50  0001 C CNN
+F 3 "" H 2200 3550 50  0001 C CNN
+	1    2200 3550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2200 3450 2400 3450
+Connection ~ 2400 4250
+$Comp
+L SW_Rotary2x6 SW1
+U 1 1 5BA32DD0
+P 5950 4200
+F 0 "SW1" H 5950 4900 50  0000 C CNN
+F 1 "SW_Rotary2x6" H 5950 3500 50  0000 C CNN
+F 2 "zisaku:Rotary-4x3" H 5850 4800 50  0001 C CNN
+F 3 "" H 5850 4800 50  0001 C CNN
+	1    5950 4200
+	1    0    0    -1  
+$EndComp
+NoConn ~ 6450 3700
+NoConn ~ 6450 3900
+NoConn ~ 6450 4000
+NoConn ~ 6450 4100
+NoConn ~ 6450 4400
+NoConn ~ 6450 4700
+NoConn ~ 6450 4600
+NoConn ~ 6450 4800
+Wire Wire Line
+	5350 4000 5550 4000
+Wire Wire Line
+	5550 4000 5550 4600
+Wire Wire Line
+	5550 3900 5350 3900
+$Comp
+L LED D1
+U 1 1 5BA39BA2
+P 7800 4250
+F 0 "D1" H 7800 4350 50  0000 C CNN
+F 1 "LED" H 7800 4150 50  0000 C CNN
+F 2 "LEDs:LED-3MM" H 7800 4250 50  0001 C CNN
+F 3 "" H 7800 4250 50  0001 C CNN
+	1    7800 4250
+	0    -1   -1   0   
+$EndComp
+$Comp
+L R R1
+U 1 1 5BA39BAE
+P 7800 3950
+F 0 "R1" V 7850 4100 50  0000 C CNN
+F 1 "1k" V 7800 3950 50  0000 C CNN
+F 2 "Resistors_SMD:R_0603_HandSoldering" V 7730 3950 50  0001 C CNN
+F 3 "" H 7800 3950 50  0001 C CNN
+	1    7800 3950
+	-1   0    0    1   
+$EndComp
+Connection ~ 2700 3450
+$Comp
+L Conn_01x02 J3
+U 1 1 5C330D0B
+P 3200 3850
+F 0 "J3" H 3200 3950 50  0000 C CNN
+F 1 "voltmeter" H 3450 3800 50  0000 C CNN
+F 2 "zisaku:Ultra_conn" H 3200 3850 50  0001 C CNN
+F 3 "" H 3200 3850 50  0001 C CNN
+	1    3200 3850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2850 3450 2850 3850
+Wire Wire Line
+	2850 3850 3000 3850
+$Comp
+L +5V #PWR?
+U 1 1 5C331A00
+P 5350 3800
+F 0 "#PWR?" H 5350 3650 50  0001 C CNN
+F 1 "+5V" H 5350 3940 50  0000 C CNN
+F 2 "" H 5350 3800 50  0001 C CNN
+F 3 "" H 5350 3800 50  0001 C CNN
+	1    5350 3800
+	1    0    0    -1  
+$EndComp
+$Comp
+L +5V #PWR?
+U 1 1 5C331BCD
+P 7100 3600
+F 0 "#PWR?" H 7100 3450 50  0001 C CNN
+F 1 "+5V" H 7100 3740 50  0000 C CNN
+F 2 "" H 7100 3600 50  0001 C CNN
+F 3 "" H 7100 3600 50  0001 C CNN
+	1    7100 3600
+	1    0    0    -1  
+$EndComp
+$Comp
+L +5V #PWR?
+U 1 1 5C331C14
+P 7100 4500
+F 0 "#PWR?" H 7100 4350 50  0001 C CNN
+F 1 "+5V" H 7100 4640 50  0000 C CNN
+F 2 "" H 7100 4500 50  0001 C CNN
+F 3 "" H 7100 4500 50  0001 C CNN
+	1    7100 4500
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 5C331C97
+P 7100 4800
+F 0 "#PWR?" H 7100 4550 50  0001 C CNN
+F 1 "GND" H 7100 4650 50  0000 C CNN
+F 2 "" H 7100 4800 50  0001 C CNN
+F 3 "" H 7100 4800 50  0001 C CNN
+	1    7100 4800
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 5C331E77
+P 5350 4100
+F 0 "#PWR?" H 5350 3850 50  0001 C CNN
+F 1 "GND" H 5350 3950 50  0000 C CNN
+F 2 "" H 5350 4100 50  0001 C CNN
+F 3 "" H 5350 4100 50  0001 C CNN
+	1    5350 4100
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 5C331EBE
+P 7100 3900
+F 0 "#PWR?" H 7100 3650 50  0001 C CNN
+F 1 "GND" H 7100 3750 50  0000 C CNN
+F 2 "" H 7100 3900 50  0001 C CNN
+F 3 "" H 7100 3900 50  0001 C CNN
+	1    7100 3900
+	1    0    0    -1  
+$EndComp
+$Comp
+L +5V #PWR?
+U 1 1 5C3322FD
+P 7800 3800
+F 0 "#PWR?" H 7800 3650 50  0001 C CNN
+F 1 "+5V" H 7800 3940 50  0000 C CNN
+F 2 "" H 7800 3800 50  0001 C CNN
+F 3 "" H 7800 3800 50  0001 C CNN
+	1    7800 3800
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 5C332372
+P 7800 4400
+F 0 "#PWR?" H 7800 4150 50  0001 C CNN
+F 1 "GND" H 7800 4250 50  0000 C CNN
+F 2 "" H 7800 4400 50  0001 C CNN
+F 3 "" H 7800 4400 50  0001 C CNN
+	1    7800 4400
+	1    0    0    -1  
+$EndComp
+$EndSCHEMATC
